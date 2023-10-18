@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-04T11:54:54.351Z",
+        "line": 3,
+        "name": "Click WOMEN",
+        "description": "",
+        "id": "limeroad-order;click-women",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3396362600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.step.Step_Defination.user_launch_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14907373400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on shop women",
+            "match": {
+              "location": "com.step.Step_Defination.user_clicks_on_shop_women()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-04T11:55:13.971Z",
+        "line": 7,
+        "name": "To select women Beauty \u0026 Personal Care",
+        "description": "",
+        "id": "limeroad-order;to-select-women-beauty-\u0026-personal-care",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13228913900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on women product",
+            "match": {
+              "location": "com.step.Step_Defination.user_click_on_women_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4346964800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on women  Beauty \u0026 Personal Care",
+            "match": {
+              "location": "com.step.Step_Defination.user_click_on_women_beauty_personal_care()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4012679000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on women Color Contour Palette \u0026 Makeup Brush",
+            "match": {
+              "location": "com.step.Step_Defination.user_click_on_women_color_contour_palette_makeup_brush()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-04T11:55:35.611Z",
+        "line": 12,
+        "name": "Add the selected product to cart",
+        "description": "",
+        "id": "limeroad-order;add-the-selected-product-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8168121600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on add to cart",
+            "match": {
+              "location": "com.step.Step_Defination.user_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad Order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Feature/lime.feature",
+    "tags": []
+  }
+]
